@@ -21,8 +21,6 @@ assests/database structure.PNG
 - **Loyal customers (R=3, F=3, M=3):** ~5,6% of clients  
 
 Example dashboards:  
-![Entries in the card field](assets/Entries in the card field.PNG)
-![Pie chart RFM](assets/Pie chart RFM.PNG)
 ![Recency and Frequency chart](assets/RecencyFrequency.PNG)
 ![Monetary chart and Dependence of purchase frequency on recency](assets/MonetaryDependenceP(R).PNG)
 ![Dependence of purchase amount on frequency and Dependence of purchase amount on recency](assets/Dependence.PNG)
