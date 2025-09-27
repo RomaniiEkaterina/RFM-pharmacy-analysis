@@ -9,7 +9,7 @@ The project highlights **practical data analytics skills**: SQL for data transfo
 - Main table: **bonuscheques** (synthetic sample included: [`data/bonuscheques.csv`](data/bonuscheques.csv))  
 
 Database schema:  
-assests/database structure.PNG
+![database structure](assets/databasestructure.PNG)
 
 ## Methods
 1. **Data preparation** — aggregation of transactions by customer.  
