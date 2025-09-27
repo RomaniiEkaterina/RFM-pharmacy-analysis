@@ -1,18 +1,4 @@
-            
-             with Recency_Frequency_Monetary as( 
-     select distinct(card) as card,
-     '2022-06-10'- max(datetime::date) as Recency,
-     count(datetime) as frequency,
-     sum(summ_with_disc) as monetary
-     from bonuscheques
-     group by card
-     )
-                          select Recency, frequency, monetary, count (card)
-                     from Recency_Frequency_Monetary
-                     group by Recency, frequency, monetary
-                     order by monetary desc, Recency desc, frequency desc
-                                                          
-                                             
+                                         
     with data as( 
      select distinct(card) as card,
      '2022-06-10' - max(datetime::date) as recency,
@@ -52,3 +38,4 @@
             
      
    
+
